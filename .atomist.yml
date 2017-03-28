@@ -1,0 +1,18 @@
+---
+kind: "operation"
+client: "atomist-bot"
+generator:
+  name: "NewRugProject"
+  group: "atomist-rugs"
+  artifact: "rug-editors"
+  version: "0.22.0"
+  origin:
+    repo: "https://github.com/atomist-rugs/rug-editors.git"
+    branch: "1e6a9f0f941441a2d3b461d7af3ce803b2e3c845"
+    sha: "1e6a9f0"
+  parameters:
+    - "project_name": "firehose-handlers"
+    - "owner": "atomist-rugs"
+    - "description": "Rugs to help you create basic event handlers of your own."
+    - "version": "0.1.0"
+
